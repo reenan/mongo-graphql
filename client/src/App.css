@@ -1,0 +1,28 @@
+.App {
+  padding: 80px;
+}
+
+input {
+  margin-right: 15px;
+}
+
+.people {
+  border: 1px solid black;
+  padding: 15px;
+  display: inline-block;
+  margin: 15px 0 0 15px;
+  width: 150px;
+
+}
+
+.people span {
+  display: block;
+  white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.peopleList {
+  margin-bottom: 15px;
+  margin-left: -15px;
+}
